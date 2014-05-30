@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2E2171619372AB20070EE61 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2E2171519372AB20070EE61 /* Cocoa.framework */; };
+		B2E2172019372AB20070EE61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2E2171E19372AB20070EE61 /* InfoPlist.strings */; };
+		B2E2172219372AB20070EE61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E2172119372AB20070EE61 /* main.m */; };
+		B2E2172619372AB20070EE61 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B2E2172419372AB20070EE61 /* Credits.rtf */; };
+		B2E2172919372AB20070EE61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E2172819372AB20070EE61 /* AppDelegate.m */; };
+		B2E2172C19372AB20070EE61 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2E2172A19372AB20070EE61 /* MainMenu.xib */; };
+		B2E2172E19372AB20070EE61 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2E2172D19372AB20070EE61 /* Images.xcassets */; };
+		B2E2173519372AB20070EE61 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2E2173419372AB20070EE61 /* XCTest.framework */; };
+		B2E2173619372AB20070EE61 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2E2171519372AB20070EE61 /* Cocoa.framework */; };
+		B2E2173E19372AB20070EE61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2E2173C19372AB20070EE61 /* InfoPlist.strings */; };
+		B2E2174019372AB20070EE61 /* JSDownloaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E2173F19372AB20070EE61 /* JSDownloaderTests.m */; };
+		B2E2174B19372C3E0070EE61 /* jsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = B2E2174A19372C3E0070EE61 /* jsIcon.png */; };
+		B2E2174D19372CE40070EE61 /* jsIconPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = B2E2174C19372CE40070EE61 /* jsIconPressed.png */; };
+		B2E2175119372CF50070EE61 /* AXStatusItemPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E2175019372CF50070EE61 /* AXStatusItemPopup.m */; };
+		B2E2175519372D300070EE61 /* DownloaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E2175319372D300070EE61 /* DownloaderViewController.m */; };
+		B2E2175619372D300070EE61 /* DownloaderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2E2175419372D300070EE61 /* DownloaderViewController.xib */; };
+		B2E2175C19373B950070EE61 /* NSWindow+canBecomeKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E2175B19373B950070EE61 /* NSWindow+canBecomeKeyWindow.m */; };
+		B2E2175E19373C560070EE61 /* jsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = B2E2175D19373C550070EE61 /* jsIcon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2E2173719372AB20070EE61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2E2170A19372AB20070EE61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2E2171119372AB20070EE61;
+			remoteInfo = JSDownloader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B2E2171219372AB20070EE61 /* JSDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2E2171519372AB20070EE61 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B2E2171819372AB20070EE61 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B2E2171919372AB20070EE61 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B2E2171A19372AB20070EE61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B2E2171D19372AB20070EE61 /* JSDownloader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JSDownloader-Info.plist"; sourceTree = "<group>"; };
+		B2E2171F19372AB20070EE61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2E2172119372AB20070EE61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2E2172319372AB20070EE61 /* JSDownloader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JSDownloader-Prefix.pch"; sourceTree = "<group>"; };
+		B2E2172519372AB20070EE61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		B2E2172719372AB20070EE61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B2E2172819372AB20070EE61 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B2E2172B19372AB20070EE61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B2E2172D19372AB20070EE61 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B2E2173319372AB20070EE61 /* JSDownloaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSDownloaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2E2173419372AB20070EE61 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B2E2173B19372AB20070EE61 /* JSDownloaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JSDownloaderTests-Info.plist"; sourceTree = "<group>"; };
+		B2E2173D19372AB20070EE61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2E2173F19372AB20070EE61 /* JSDownloaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSDownloaderTests.m; sourceTree = "<group>"; };
+		B2E2174A19372C3E0070EE61 /* jsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jsIcon.png; sourceTree = "<group>"; };
+		B2E2174C19372CE40070EE61 /* jsIconPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jsIconPressed.png; sourceTree = "<group>"; };
+		B2E2174F19372CF50070EE61 /* AXStatusItemPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXStatusItemPopup.h; sourceTree = "<group>"; };
+		B2E2175019372CF50070EE61 /* AXStatusItemPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXStatusItemPopup.m; sourceTree = "<group>"; };
+		B2E2175219372D300070EE61 /* DownloaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloaderViewController.h; sourceTree = "<group>"; };
+		B2E2175319372D300070EE61 /* DownloaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloaderViewController.m; sourceTree = "<group>"; };
+		B2E2175419372D300070EE61 /* DownloaderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DownloaderViewController.xib; sourceTree = "<group>"; };
+		B2E2175A19373B950070EE61 /* NSWindow+canBecomeKeyWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSWindow+canBecomeKeyWindow.h"; sourceTree = "<group>"; };
+		B2E2175B19373B950070EE61 /* NSWindow+canBecomeKeyWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSWindow+canBecomeKeyWindow.m"; sourceTree = "<group>"; };
+		B2E2175D19373C550070EE61 /* jsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jsIcon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2E2170F19372AB20070EE61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2E2171619372AB20070EE61 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2E2173019372AB20070EE61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2E2173619372AB20070EE61 /* Cocoa.framework in Frameworks */,
+				B2E2173519372AB20070EE61 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2E2170919372AB20070EE61 = {
+			isa = PBXGroup;
+			children = (
+				B2E2175D19373C550070EE61 /* jsIcon.png */,
+				B2E2171B19372AB20070EE61 /* JSDownloader */,
+				B2E2173919372AB20070EE61 /* JSDownloaderTests */,
+				B2E2171419372AB20070EE61 /* Frameworks */,
+				B2E2171319372AB20070EE61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2E2171319372AB20070EE61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2E2171219372AB20070EE61 /* JSDownloader.app */,
+				B2E2173319372AB20070EE61 /* JSDownloaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2E2171419372AB20070EE61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2E2171519372AB20070EE61 /* Cocoa.framework */,
+				B2E2173419372AB20070EE61 /* XCTest.framework */,
+				B2E2171719372AB20070EE61 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2E2171719372AB20070EE61 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2E2171819372AB20070EE61 /* AppKit.framework */,
+				B2E2171919372AB20070EE61 /* CoreData.framework */,
+				B2E2171A19372AB20070EE61 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B2E2171B19372AB20070EE61 /* JSDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				B2E2174919372C340070EE61 /* Resources */,
+				B2E2172719372AB20070EE61 /* AppDelegate.h */,
+				B2E2172819372AB20070EE61 /* AppDelegate.m */,
+				B2E2172A19372AB20070EE61 /* MainMenu.xib */,
+				B2E2172D19372AB20070EE61 /* Images.xcassets */,
+				B2E2174E19372CF50070EE61 /* AXStatusItemPopup */,
+				B2E2171C19372AB20070EE61 /* Supporting Files */,
+				B2E2175219372D300070EE61 /* DownloaderViewController.h */,
+				B2E2175319372D300070EE61 /* DownloaderViewController.m */,
+				B2E2175419372D300070EE61 /* DownloaderViewController.xib */,
+				B2E2175A19373B950070EE61 /* NSWindow+canBecomeKeyWindow.h */,
+				B2E2175B19373B950070EE61 /* NSWindow+canBecomeKeyWindow.m */,
+			);
+			path = JSDownloader;
+			sourceTree = "<group>";
+		};
+		B2E2171C19372AB20070EE61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2E2171D19372AB20070EE61 /* JSDownloader-Info.plist */,
+				B2E2171E19372AB20070EE61 /* InfoPlist.strings */,
+				B2E2172119372AB20070EE61 /* main.m */,
+				B2E2172319372AB20070EE61 /* JSDownloader-Prefix.pch */,
+				B2E2172419372AB20070EE61 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2E2173919372AB20070EE61 /* JSDownloaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2E2173F19372AB20070EE61 /* JSDownloaderTests.m */,
+				B2E2173A19372AB20070EE61 /* Supporting Files */,
+			);
+			path = JSDownloaderTests;
+			sourceTree = "<group>";
+		};
+		B2E2173A19372AB20070EE61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2E2173B19372AB20070EE61 /* JSDownloaderTests-Info.plist */,
+				B2E2173C19372AB20070EE61 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2E2174919372C340070EE61 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B2E2174C19372CE40070EE61 /* jsIconPressed.png */,
+				B2E2174A19372C3E0070EE61 /* jsIcon.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B2E2174E19372CF50070EE61 /* AXStatusItemPopup */ = {
+			isa = PBXGroup;
+			children = (
+				B2E2174F19372CF50070EE61 /* AXStatusItemPopup.h */,
+				B2E2175019372CF50070EE61 /* AXStatusItemPopup.m */,
+			);
+			path = AXStatusItemPopup;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2E2171119372AB20070EE61 /* JSDownloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2E2174319372AB20070EE61 /* Build configuration list for PBXNativeTarget "JSDownloader" */;
+			buildPhases = (
+				B2E2170E19372AB20070EE61 /* Sources */,
+				B2E2170F19372AB20070EE61 /* Frameworks */,
+				B2E2171019372AB20070EE61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSDownloader;
+			productName = JSDownloader;
+			productReference = B2E2171219372AB20070EE61 /* JSDownloader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2E2173219372AB20070EE61 /* JSDownloaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2E2174619372AB20070EE61 /* Build configuration list for PBXNativeTarget "JSDownloaderTests" */;
+			buildPhases = (
+				B2E2172F19372AB20070EE61 /* Sources */,
+				B2E2173019372AB20070EE61 /* Frameworks */,
+				B2E2173119372AB20070EE61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2E2173819372AB20070EE61 /* PBXTargetDependency */,
+			);
+			name = JSDownloaderTests;
+			productName = JSDownloaderTests;
+			productReference = B2E2173319372AB20070EE61 /* JSDownloaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2E2170A19372AB20070EE61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = studionord;
+				TargetAttributes = {
+					B2E2173219372AB20070EE61 = {
+						TestTargetID = B2E2171119372AB20070EE61;
+					};
+				};
+			};
+			buildConfigurationList = B2E2170D19372AB20070EE61 /* Build configuration list for PBXProject "JSDownloader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2E2170919372AB20070EE61;
+			productRefGroup = B2E2171319372AB20070EE61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2E2171119372AB20070EE61 /* JSDownloader */,
+				B2E2173219372AB20070EE61 /* JSDownloaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2E2171019372AB20070EE61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2E2172019372AB20070EE61 /* InfoPlist.strings in Resources */,
+				B2E2175619372D300070EE61 /* DownloaderViewController.xib in Resources */,
+				B2E2172E19372AB20070EE61 /* Images.xcassets in Resources */,
+				B2E2175E19373C560070EE61 /* jsIcon.png in Resources */,
+				B2E2174B19372C3E0070EE61 /* jsIcon.png in Resources */,
+				B2E2172619372AB20070EE61 /* Credits.rtf in Resources */,
+				B2E2174D19372CE40070EE61 /* jsIconPressed.png in Resources */,
+				B2E2172C19372AB20070EE61 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2E2173119372AB20070EE61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2E2173E19372AB20070EE61 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2E2170E19372AB20070EE61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2E2172919372AB20070EE61 /* AppDelegate.m in Sources */,
+				B2E2175C19373B950070EE61 /* NSWindow+canBecomeKeyWindow.m in Sources */,
+				B2E2175119372CF50070EE61 /* AXStatusItemPopup.m in Sources */,
+				B2E2172219372AB20070EE61 /* main.m in Sources */,
+				B2E2175519372D300070EE61 /* DownloaderViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2E2172F19372AB20070EE61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2E2174019372AB20070EE61 /* JSDownloaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2E2173819372AB20070EE61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2E2171119372AB20070EE61 /* JSDownloader */;
+			targetProxy = B2E2173719372AB20070EE61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2E2171E19372AB20070EE61 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2E2171F19372AB20070EE61 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B2E2172419372AB20070EE61 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2E2172519372AB20070EE61 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		B2E2172A19372AB20070EE61 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2E2172B19372AB20070EE61 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		B2E2173C19372AB20070EE61 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2E2173D19372AB20070EE61 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2E2174119372AB20070EE61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B2E2174219372AB20070EE61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B2E2174419372AB20070EE61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSDownloader/JSDownloader-Prefix.pch";
+				INFOPLIST_FILE = "JSDownloader/JSDownloader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B2E2174519372AB20070EE61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSDownloader/JSDownloader-Prefix.pch";
+				INFOPLIST_FILE = "JSDownloader/JSDownloader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B2E2174719372AB20070EE61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JSDownloader.app/Contents/MacOS/JSDownloader";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSDownloader/JSDownloader-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JSDownloaderTests/JSDownloaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B2E2174819372AB20070EE61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JSDownloader.app/Contents/MacOS/JSDownloader";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSDownloader/JSDownloader-Prefix.pch";
+				INFOPLIST_FILE = "JSDownloaderTests/JSDownloaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2E2170D19372AB20070EE61 /* Build configuration list for PBXProject "JSDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2E2174119372AB20070EE61 /* Debug */,
+				B2E2174219372AB20070EE61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2E2174319372AB20070EE61 /* Build configuration list for PBXNativeTarget "JSDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2E2174419372AB20070EE61 /* Debug */,
+				B2E2174519372AB20070EE61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B2E2174619372AB20070EE61 /* Build configuration list for PBXNativeTarget "JSDownloaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2E2174719372AB20070EE61 /* Debug */,
+				B2E2174819372AB20070EE61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2E2170A19372AB20070EE61 /* Project object */;
+}
